@@ -1,0 +1,16 @@
+env: local
+
+spring:
+  application:
+    name: pd6-service
+
+  profiles:
+    active: ${env}
+
+
+logging:
+  level:
+    root: debug
+    org:
+      springframework:
+        security: debug

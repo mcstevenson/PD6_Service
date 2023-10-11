@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    url: jdbc:mysql://localhost:3306/aim_schema
+    password: root
+
+  jpa:
+    hibernate:
+      ddl-auto: validate #create-drop #update #validate
+    show-sql: 'true'
